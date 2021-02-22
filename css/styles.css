@@ -1,0 +1,59 @@
+/* nice default settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #add8e6;
+}
+
+/* Boostrap Menu */
+.bg-dark {
+  background-color: #008000!important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #333;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.sign-in {
+  color: #029640!important;
+}
+
+.home-header {
+  color:#029640;
+  font-size: 5em;
+  width: 100%;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  border: 1px solid black;
+  width: 30%;
+  height: 30px;
+  margin: auto;
+  justify-content: flex-start;
+}
+
+.search-icon {
+  width: 10%;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.search-text {
+  font-style: italic;
+}
+
+.home-image {
+  margin: auto;
+  padding: 5%;
+  width: 30%;
+}
