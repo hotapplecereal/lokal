@@ -14,29 +14,45 @@ body {
   background-color: #008000!important;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #333;
+.nav-link:hover {
+  color: #fff!important;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+.nav-link {
+  color: #333!important;
 }
 
-.sign-in {
+.active {
   color: #029640!important;
+}
+
+.page {
+  width: 100%;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.page-item {
+  width: 100%;
 }
 
 .home-header {
   color:#029640;
-  font-size: 5em;
+  font-size: 3em;
   width: 100%;
   text-align: center;
+}
+
+.search-container {
+  width: 100%;
 }
 
 .search {
   display: flex;
   border: 1px solid black;
-  width: 30%;
+  width: 150px;
   height: 30px;
   margin: auto;
   justify-content: flex-start;
@@ -55,5 +71,198 @@ body {
 .home-image {
   margin: auto;
   padding: 5%;
-  width: 30%;
+  width: 150px;
+}
+
+.footer {
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.sign-in-container
+{
+  width: 100%;
+}
+
+.sign-in
+{
+  background-color: #FFFFFF;
+  border: 3px solid black;
+  padding: 2% 2% 1% 2%;
+  margin: auto;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left
+}
+
+.sign-in-item {
+  width: 100%;
+}
+
+.sign-in-header {
+
+}
+.sign-in-subheader {
+  padding: 0 0 2% 0;
+}
+
+.sign-in-box {
+  height: 30px;
+  border: 1px solid black;
+}
+
+.sign-in-forgot {
+  padding: 2%;
+  text-align: center;
+}
+
+.sign-in-forgot-link {
+  color: #029640;
+  text-decoration: underline;
+}
+
+.new-user-question {
+  width: 100%;
+  text-align: center;
+  margin: 1%;
+}
+
+.create-account {
+  background-color: #029640;
+  color: #FFFFFF;
+  border-radius: 10px;
+  width: 210px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.contact-page-header {
+  margin-left: 3%;
+  text-align: left;
+}
+
+.contact {
+  margin: 20px auto 0 30px;
+}
+
+.contact-header {
+  color: #029640;
+}
+
+.contact-info-line {
+  margin: 0;
+  font-size: 10px;
+  color: #000000;
+}
+
+.about-page-content {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.about-header {
+  width: 100%;
+}
+
+.about-text {
+  width: 100%;
+}
+
+.founder-picture-container {
+  float: left;
+  width: 40%;
+  height: auto;
+  margin: 0 10px 10px 0;
+}
+
+.founder-picture {
+  width: 100%;
+}
+
+.founder-caption {
+}
+
+.about-page-pictures {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.city-picture-container {
+  width: 100%;
+  height: auto;
+  margin: 20px 20px 0 20px;
+  padding: 0;
+}
+
+.city-picture {
+  width: 100%;
+  height: 200px;
+}
+
+/* Everything but Mobile*/
+@media only screen and (min-width: 481px) {
+  .search {
+    width: 30%;
+  }
+
+  .home-header {
+    font-size: 5em;
+  }
+
+  .sign-in {
+    width: 400px;
+  }
+
+  .contact-page-header {
+    margin-left: 10%;
+  }
+
+  .contact {
+    margin-left: 20%;
+  }
+
+  .about-page-content {
+    width: 40%;
+  }
+
+  .about-page-pictures {
+    width: 60%;
+  }
+
+  .home-image {
+    width: 30%;
+  }
+}
+
+/* Large Screens/TVs */
+@media only screen and (min-width: 1041px) {
+
+}
+
+/* Small/Laptop */
+@media only screen and (max-width: 1040px) and (min-width: 769px) {
+
+}
+
+/* Tablets */
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .about-page-content,
+  .about-page-pictures {
+    width: 100%;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+
 }
